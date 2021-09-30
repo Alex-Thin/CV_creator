@@ -1,0 +1,17 @@
+.block_header {
+    padding: 10px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #6c757d;
+    display: flex;
+    width: 100%;
+}
+.block_header .text{
+	margin-left: 10%;
+}
+.block_icons {
+    width: 20px;
+    margin-left:auto;
+    cursor: pointer;
+}

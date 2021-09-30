@@ -1,0 +1,35 @@
+.modal_window {
+	background-color: rgba(0,0,0,0.4);
+	position:fixed;
+	top:0;
+	left:0;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.modal_window.active {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.modal__content {
+	position:fixed;
+	top: 25%;
+	left: 30%;
+	padding: 20px;
+	border-radius: 12px;
+	background-color: white;
+	transform: scale(0.5);
+	transition: 0.4s all;
+	width: fit-content;
+}
+
+.modal__content.active{
+	transform: scale(1);
+}
+
